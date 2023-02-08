@@ -1,0 +1,300 @@
+
+/*Index*/
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+h1{
+    
+    font-family: 'Unbounded', cursive;
+    color: rgb(255, 253, 249);
+    text-align: center;
+    font-size: 60px;
+    margin-top: 70px;
+    padding: 30px 20px;
+    background-color: rgb(105, 105, 105);
+
+}
+
+.nombre {
+    text-align: right;
+    margin-top: -90px;
+    color: rgb(255, 253, 249);
+    padding-right: 20px;
+    font-size: 1em;
+    font-family: 'Unbounded', cursive;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    display: inline;
+    color: black;
+    margin: 60px;
+    font-size: 16px;
+    font-family: 'Unbounded', cursive;
+}
+
+
+.menu{
+    margin-top: 30px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: orange;
+}
+
+.resumen{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+    font-family: 'Unbounded', cursive;
+}
+
+.resumen h3 {
+    
+    text-align: center;
+    font-size: 26px;
+    margin-top: 60px;
+}
+
+.resumen p {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 40px;
+}
+/*Fin de index*/
+
+/*biografia*/
+.inicios{
+    margin-left: -370px;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: -10px;
+}
+
+.back {
+  margin-left: 30px;
+  font-size: 46px;
+  text-decoration: none;
+}
+
+
+.cuerpo-historia {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.img1 {
+    width: 350px;
+    height: 350px;
+    margin-right: 100px;
+}
+
+.texto1bio {
+    font-family: 'Unbounded', cursive;
+    margin-left: 100px;
+    line-height: 40px;
+    margin-right: 70px;
+}
+
+.cuerpo-sobre-mi{
+    font-family: 'Unbounded', cursive;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+
+.img2 {
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.texto2bio {
+    margin-left: 100px;
+    line-height: 40px;
+    margin-right: 100px;
+}
+
+.inicios1 {
+    margin-left: 430px;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: -110px;
+}
+
+h2 {
+    font-family: 'Unbounded', cursive;
+    color: rgb(255, 253, 249);
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+    padding: 40px 40px;
+    background-color: rgb(105, 105, 105);
+}
+/*Fin de Biografia*/
+
+/*Formulario*/
+
+
+.misdatos li{
+    font-family: 'Unbounded', cursive;
+    display: inline;
+    flex-direction: row;
+    margin-right: 130px;
+    margin-top: 60px;
+    color: rgb(255, 253, 249);
+}
+
+.misdatos {
+    background-color: rgb(105, 105, 105);
+    padding: 20px 20px;
+    margin-top: 70px;
+}
+
+.img3 {
+    width: 1500px;
+    height: 200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contact {
+    font-family: 'Unbounded', cursive;
+    font-size: 60px;
+    margin-top: -220px;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 230px;
+}
+
+textarea {
+    font-family: 'Unbounded', cursive;
+    width: 300px;
+    height: 100px;
+    border: 1px;
+    color: grey;
+    margin-left: 230px;
+}
+
+.areatexto {
+    font-family: 'Unbounded', cursive;
+    text-align: left;
+   
+}
+
+.sunombre {
+    font-family: 'Unbounded', cursive;
+    margin-right: 100px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 230px;
+}
+
+.sucorreo {
+    font-family: 'Unbounded', cursive;
+    margin-right: 100px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 230px;
+}
+
+
+
+/*Fin de formulario*/
+
+/*Inicio portfolio*/
+h1{
+    font-family: 'Unbounded', cursive;
+    color: rgb(255, 253, 249);
+    text-align: center;
+    font-size: 60px;
+    margin-top: 70px;
+    padding: 30px 20px;
+    background-color: rgb(105, 105, 105);
+}
+
+img {
+    width: 50%;
+    height: 500px;
+}
+
+.carrusel {
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-left: 200px;
+}
+
+.carrusel img{
+    flex: 0 0 100%;
+    width: 50%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    
+}
+
+.fotosegipto {
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+h3 {
+text-align: center;
+font-size: 26px;
+margin-top: -50px;
+}
+
+.dani {
+    margin-left: 60px;
+    height: 350px;
+    width: 350px;
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+
+.hugo {
+    float: right;
+margin-top: 200px;
+margin-right: 60px;
+}
+
+.luis {
+    width: 350px;
+    height: 350px;
+    float: right ;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.jordo {
+    margin-left: 60px;
+}
+
+.fotosamigos {
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 40px;
+    margin-top: 160px;
+}
+/*Fin portfolio*/
